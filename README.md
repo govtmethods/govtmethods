@@ -51,7 +51,7 @@ This contains rendered HTML only (built artifacts), and is what GitHub Pages ser
 
 ### What happens when you merge changes
 
-When you (or Parushya) merges a Pull Request (PR) into `main` in a source repo:
+When you merges a Pull Request (PR) into `main` in a source repo:
 
 1. GitHub Actions runs in that source repo (it’s basically an automated build machine).
 2. It installs Quarto (and R if needed).
@@ -368,7 +368,7 @@ git push -u origin HEAD
 On GitHub:
 - Open a PR from your branch into `main`
 - Explain what changed and why
-- Request review (Parushya or other maintainer/site administrator)
+- Request review (Maintainer/site administrator)
 
 ### Step A9 — Merge and deploy
 

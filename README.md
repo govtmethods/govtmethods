@@ -1,4 +1,5 @@
-"A step-by-step onboarding for collaborators (Quarto + GitHub + CI deployment)"
+# A step-by-step onboarding for collaborators 
+(Quarto + GitHub + CI deployment)
 
 ## Hi there 👋
 

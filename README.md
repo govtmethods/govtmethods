@@ -15,14 +15,17 @@ tools, workflows, code, and conceptual frameworks we return to in our research a
 
 Each series is also available as a single PDF, linked from its own page.
 
-### Contributing
+### Presenting a session
 
-Sessions are written by the people who present them. If you are presenting a session or joining as
-an editor, the **[Contributor Guide](https://govtmethods.github.io/contributing.html)** covers
-everything from setting up your machine to publishing a chapter. No prior Git experience assumed.
+Sessions are written by the people who present them. If you presented one and would like it on the
+site, **[Submitting a Session](https://govtmethods.github.io/submit.html)** explains what to send —
+no GitHub account, and nothing to install.
+
+Editors maintain the site itself. If you would like to join as one,
+[get in touch](https://govtmethods.github.io/ask.html).
 
 ### How it's built
 
 Everything is written in [Quarto](https://quarto.org). Each repository renders itself with GitHub
 Actions and publishes to GitHub Pages; R environments are pinned per project with
-[renv](https://rstudio.github.io/renv/), so a chapter builds the same way on any machine.
+[renv](https://rstudio.github.io/renv/), so every build uses the same package versions.
